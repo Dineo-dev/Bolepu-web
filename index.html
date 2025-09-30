@@ -243,7 +243,7 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form">
+                <!-- <form class="contact-form">
                     <div class="form-group">
                         <input type="text" id="name" name="name" placeholder="Your Name" required>
                     </div>
@@ -257,7 +257,43 @@
                         <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
+                </form> -->
+
+                <!-- <form action="https:api.web3forms.com/submit" method="post" class="contact-left">
+                    <div class="contact-left-title">
+                        <h2>Contact Us</h2>
+                        <hr>
+                    </div>
+
+                    <input type="hidden" name="access_key" value="" -->
+
+                <!-- </form> -->
+
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                    <input type="hidden" name="access_key" value="9db751d1-015f-4424-bb1b-abd3098fbc89">
+                    <input type="hidden" name="subject" value="New message from Bolepu Savvy website">
+                    <input type="hidden" name="from_name" value="Bolepu Savvy Website">
+                    <input type="hidden" name="from_email" value="no-reply@besavvy.co.za">
+                    <!-- Optional: where to go after successful submit -->
+                    <!-- <input type="hidden" name="redirect" value="https://yourdomain.com/thank-you.html"> -->
+                    <!-- Optional spam honeypot -->
+                    <input type="checkbox" name="botcheck" class="hidden" style="display:none">
+                  
+                    <div class="form-group">
+                      <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" id="subject" name="user_subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                      <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                  </form>
+
             </div>
         </div>
     </section>
