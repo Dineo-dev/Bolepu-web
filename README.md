@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bolepu Savvy - Web Development Company Website
 
 A modern, responsive website for Bolepu Savvy, a web development company. This website features a clean design, smooth animations, and excellent user experience across all devices.
@@ -141,3 +142,6 @@ This website template is created for Bolepu Savvy. All rights reserved.
 ---
 
 **Built with ❤️ for Bolepu Savvy Web Development Company**
+=======
+# Bolepu-web
+>>>>>>> 7f9c3cfa04d866291485e58bca8f13e6eb478f82
